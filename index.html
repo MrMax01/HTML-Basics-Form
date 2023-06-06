@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Music</title>
+    <style>
+         label{
+            display: block;
+        }
+        input{
+          margin-bottom: 15px;  
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">App Music Streaming</h1>
+    <form onsubmit="alert('Registrazione inviata!')" style="text-align: center;">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" placeholder="Inserisci il nome">
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" placeholder="inserisci il cognome">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="inserisci la tua email">
+            <label for="password">Inserire la tua Password:</label>
+            <input type="password" id="password" placeholder="password">
+        </div>
+        <div>
+            <label for="date">Data di Nascita:</label>
+            <input type="date" id="date" placeholder="data di nascita">
+            <label for="number">Cell:</label>
+            <input type="numer" id="number" placeholder="il tuo numero">
+        </div>
+        <div>
+            <input type="checkbox"> Rock
+            <input type="checkbox"> Punk
+            <input type="checkbox">Hip-Hop
+            <input type="checkbox">Rap
+            <input type="checkbox"> Country
+        </div>
+
+        <button type="submit">INVIO</button>
+    </form>
+</body>
+</html>
